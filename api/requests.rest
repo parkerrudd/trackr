@@ -1,0 +1,14 @@
+GET http://localhost:3001/exercises
+
+###
+
+POST http://localhost:3001/exercise/new
+Content-Type: application/json
+
+{
+    "text": "Bench Press"
+}
+
+###
+
+DELETE http://localhost:3001/exercise/delete/62ba64be00a795d7a1865113
